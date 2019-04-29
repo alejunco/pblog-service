@@ -1,0 +1,16 @@
+v1.0.0:
+    ✔ Install & configure to `express` to run at configured host:port. @done(19-04-29 12:27)
+        ✔ Install & Setup `dotenv`. @done(19-04-29 12:27)
+    ✔ Install & configure `mongoose` @done(19-04-29 12:27)
+        ✔ Add config to env.example. @done(19-04-29 12:27)
+    ✔ Install & configure `graphql` & `express-graphql` @done(19-04-29 12:27)
+        ✔ Install `body-parser`. @done(19-04-29 12:27)
+        ✔ Create empty schema. @done(19-04-29 12:29)
+
+v1.0.1:
+    ☐ Install & configure jest.
+    ☐ Install & configure babel.
+    ☐ Install & configure webpack.
+
+v1.0.2:
+    ☐ Create test data & graphql schema.
