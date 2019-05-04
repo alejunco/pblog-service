@@ -31,7 +31,7 @@ mongoose
 const schema = {}
 
 app.use(
-    "/graphql",
+    '/graphql',
     bodyParser.json(),
     expressGraphQL({
         schema,

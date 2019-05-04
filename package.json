@@ -11,7 +11,8 @@
     "clean": "rimraf dist",
     "build": "babel ./src --out-dir dist",
     "prod": "NODE_ENV=production npm-run-all clean build server:prod",
-    "watch": "nodemon"
+    "watch": "nodemon",
+    "lint": "eslint src"
   },
   "keywords": [],
   "author": "Alejandro Junco",
@@ -28,7 +29,9 @@
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
     "dotenv": "^7.0.0",
+    "eslint": "^5.16.0",
     "nodemon": "^1.19.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.3"
