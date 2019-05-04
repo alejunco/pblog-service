@@ -8,9 +8,16 @@ v1.0.0:
         ✔ Create empty schema. @done(19-04-29 12:29)
 
 v1.0.1:
-    ☐ Install & configure jest.
-    ☐ Install & configure babel.
-    ☐ Install & configure webpack.
-
+    ✔ Install & configure babel. @done(19-05-03 21:57)
+        ✔ Run `yarn add babel-cli babel-preset-env babel-loader babel-core --dev` @done(19-05-03 21:57)
+        ✔ Create file `.babelrc` at the root of the project @done(19-05-03 21:57)
+    ✔ Install `npm-run-all` && `rimraf` @done(19-05-03 21:57)
+        ✔ Add `build`, `prod`, `clean` scripts. @done(19-05-03 21:57)
+    ✔ Install `nodemon` @done(19-05-03 21:57)
+        ✔ `npm install nodemon --save-dev` or `yarn add nodemon --dev` @done(19-05-03 21:57)
+        ✔ Add `watch` script. @done(19-05-03 21:57)
+    ☐ Install & configure eslint.
+    
 v1.0.2:
+    ☐ Install & configure jest.
     ☐ Create test data & graphql schema.

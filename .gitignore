@@ -61,3 +61,6 @@ typings/
 .next
 .vscode/launch.json
 .DS_Store
+
+# dist folder
+dist/

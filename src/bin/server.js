@@ -1,8 +1,8 @@
-require('dotenv').config()
-const express = require('express');
-const bodyParser = require('body-parser')
-const expressGraphQL = require('express-graphql')
-const mongoose = require('mongoose');
+import 'dotenv/config'
+import express from 'express'
+import bodyParser from 'body-parser'
+import expressGraphQL from 'express-graphql'
+import mongoose from 'mongoose'
 
 const host = process.env.NODE_HOST || '0.0.0.0'
 const port = process.env.NODE_PORT || 3000
